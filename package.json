@@ -1,0 +1,32 @@
+{
+  "name": "soundsync",
+  "version": "1.0.0",
+  "description": "SoundSync music library application",
+  "keywords": [
+    "soundsync2026"
+  ],
+  "homepage": "https://github.com/salvajherald131-eng/SoundSync#readme",
+  "bugs": {
+    "url": "https://github.com/salvajherald131-eng/SoundSync/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salvajherald131-eng/SoundSync.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.22.3",
+    "mysql2": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
